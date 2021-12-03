@@ -10,7 +10,8 @@
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
     "@sveltejs/kit": "next",
-    "svelte": "^3.44.0"
+    "svelte": "^3.44.0",
+    "vite-plugin-windicss": "^1.5.4"
   },
   "type": "module"
 }

@@ -1,2 +1,8 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<h1 class="mx-auto max-w-md text-4xl mt-4 text-center">Spencer Solberg</h1>
+
+
+<style>
+    h1 {
+        font-family: "NCS Radhiumz";
+    }
+</style>
