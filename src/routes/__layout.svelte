@@ -19,9 +19,6 @@
 </main>
 
 <style>
-    h1 {
-        font-family: "NCS Radhiumz";
-    }
   #gradient-canvas {
     width: 100%;
     height: 100%;
