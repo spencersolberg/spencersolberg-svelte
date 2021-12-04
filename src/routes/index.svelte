@@ -1,7 +1,6 @@
 <script>
   import Link from "../components/Link.svelte";
   import { onMount } from "svelte";
-
   onMount(() => {
     (function () {
       var ticker = document.createElement("script");
@@ -13,13 +12,28 @@
       ).appendChild(ticker);
     })();
   });
+
+  import { browser } from "$app/env";
+
+  const isTouchDevice = () => {
+    if (browser) {
+      return (
+        "ontouchstart" in window ||
+        navigator.maxTouchPoints > 0 ||
+        navigator.msMaxTouchPoints > 0
+      );
+    } else return false;
+  };
 </script>
 
 <h1 class="mx-auto max-w-md text-4xl mt-4 text-center">Spencer Solberg</h1>
 
-<img src="/favicon.png" alt="Spencer in a cube" class="mt-4 w-40 mx-auto" />
+<img src="/favicon.png" alt="Spencer in a cube" class="mt-4 w-40 mx-auto transition-transform transform transform-gpu {!isTouchDevice()
+  ? 'motion-safe:hover:scale-105'
+  : ''} motion-safe:active:scale-95"
+  onmouseup="party.confetti(this)" />
 
-<li class="mx-auto max-w-md mt-4 mb-4 list-none">
+<li class="max-w-md mx-auto px-2 mt-4 mb-4 x-2 list-none">
   <Link title="🐦 Twitter" url="https://twitter.com/spencersolberg_" />
   <Link title="⚡️ Strike" url="https://strike.me/spencersolberg" />
   <Link title="📸 Instagram" url="https://instagram.com/spencersolberg" />

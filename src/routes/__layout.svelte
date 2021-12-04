@@ -2,6 +2,7 @@
   import "virtual:windi.css";
   import { onMount } from "svelte";
   import { Gradient } from "../Gradient.js";
+  import Footer from "../components/Footer.svelte";
 
   onMount(() => {
     // Create your instance
@@ -13,15 +14,15 @@
 </script>
 
 <main>
-    <slot />
-  <canvas id="gradient-canvas" data-transition-in>    
-  </canvas>
+  <slot />
+  <Footer />
+  <canvas id="gradient-canvas" data-transition-in />
 </main>
 
 <style>
   #gradient-canvas {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     display: block;
     position: fixed;
     top: 0;
@@ -34,7 +35,7 @@
   }
 
   @font-face {
-      font-family: "NCS Radhiumz";
-      src: url("/NcsRadhiumz-Rp3x6.ttf");
+    font-family: "NCS Radhiumz";
+    src: url("/NcsRadhiumz-Rp3x6.ttf");
   }
 </style>
