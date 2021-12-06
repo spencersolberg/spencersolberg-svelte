@@ -35,9 +35,9 @@
 
 <li class="max-w-md mx-auto px-2 mt-4 mb-4 x-2 list-none">
   <Link title="🐦 Twitter" url="https://twitter.com/spencersolberg_" />
-  <Link title="⚡️ Strike" url="https://strike.me/spencersolberg" />
   <Link title="📸 Instagram" url="https://instagram.com/spencersolberg" />
   <Link title="💻 GitHub" url="https://github.com/spencersolberg" />
+  <Link title="💵 spencer.sats" url="http://spencer.sats/" />
   <Link title="🤝 spencersolberg/" url="https://spencersolberg/" />
   <Link title="🌐 spencersolberg.com" url="https://spencersolberg.com" />
   <Link title="💈 Tags.Town" url="https://tags.town" />
