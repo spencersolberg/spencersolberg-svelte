@@ -35,7 +35,7 @@
   }
 
   @font-face {
-    font-family: "NCS Radhiumz";
-    src: url("/NcsRadhiumz-Rp3x6.ttf");
+    font-family: "Fluro Bold";
+    src: url("/FluroBold.woff");
   }
 </style>

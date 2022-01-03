@@ -21,12 +21,12 @@
       ? 'motion-safe:hover:scale-105'
       : ''} motion-safe:active:scale-95"
   >
-    <h2 class="pt-4 pb-2 text-center text-xl">{title}</h2>
+    <h2 class="py-2.5 text-center text-2xl">{title}</h2>
   </div></a
 >
 
 <style>
   h2 {
-    font-family: "NCS Radhiumz";
+    font-family: "Fluro Bold";
   }
 </style>

@@ -26,7 +26,7 @@
   };
 </script>
 
-<h1 class="mx-auto max-w-md text-4xl mt-4 text-center">Spencer Solberg</h1>
+<h1 class="mx-auto max-w-md text-5xl mt-4 text-center">Spencer Solberg</h1>
 
 <img src="/favicon.png" alt="Spencer in a cube" class="mt-4 w-40 mx-auto transition-transform transform transform-gpu {!isTouchDevice()
   ? 'motion-safe:hover:scale-105'
@@ -37,7 +37,7 @@
   <Link title="🐦 Twitter" url="https://twitter.com/spencersolberg_" />
   <Link title="📸 Instagram" url="https://instagram.com/spencersolberg" />
   <Link title="💻 GitHub" url="https://github.com/spencersolberg" />
-  <Link title="💵 spencer.sats" url="http://spencer.sats/" />
+  <Link title="💵 hiphip.tips" url="https://hiphip.tips/spencersolberg" />
   <Link title="🤝 spencersolberg/" url="https://spencersolberg/" />
   <Link title="🌐 spencersolberg.com" url="https://spencersolberg.com" />
   <Link title="💈 Tags.Town" url="https://tags.town" />
@@ -46,6 +46,6 @@
 
 <style>
   h1 {
-    font-family: "NCS Radhiumz";
+    font-family: "Fluro Bold";
   }
 </style>
